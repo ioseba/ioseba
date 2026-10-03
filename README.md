@@ -1,63 +1,98 @@
-# Ioseba Alonso (I. Alonso) - AI & Software Engineering
-
 <div align="center">
-  <h1>Hi there, I'm Ioseba 👋</h1>
-  <p>
-    <strong>AI Engineer & Developer</strong> based in <strong>Bilbao, Spain 🇪🇸</strong>
-  </p>
-  <p>
-    <em>"Driven by the desire to take AI from research to real-world implementation: solving industrial data challenges and accelerating digital transformation."</em>
+
+  <!-- Dynamic Typing SVG Header -->
+  <a href="https://github.com/ioseba">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1200&color=61AFEF&center=true&vCenter=true&width=650&height=50&lines=I.+Alonso;AI+Systems+%26+Software+Engineer;LLM+Routing+%26+Streaming+Engines;Bridging+Research+%26+Industrial+Scale" alt="I. Alonso Typing SVG" />
+  </a>
+
+  <p align="center">
+    <strong>Bilbao, Spain 🇪🇸 &nbsp;|&nbsp; Industrial AI & Software Architecture</strong>
   </p>
 
-  <p>
-    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Open_Source-Contributor-00C853?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Contributor" /></a>
-    <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face" /></a>
-    <a href="https://github.com/BerriAI/litellm"><img src="https://img.shields.io/badge/LiteLLM-Core_Contributor-5C6BC0?style=for-the-badge&logo=python&logoColor=white" alt="LiteLLM" /></a>
-    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Focus-Applied_AI_%26_Agents-7928CA?style=for-the-badge" alt="Applied AI" /></a>
+  <p align="center">
+    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Status-Shipping_Code-00E676?style=for-the-badge&logo=git&logoColor=black" alt="Status" /></a>
+    <a href="https://github.com/BerriAI/litellm"><img src="https://img.shields.io/badge/LiteLLM-Core_Contributor-5C6BC0?style=for-the-badge&logo=python&logoColor=white" alt="LiteLLM Contributor" /></a>
+    <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face Contributor" /></a>
+    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Architecture-Agentic_%26_RAG-7928CA?style=for-the-badge" alt="Architecture" /></a>
   </p>
+
 </div>
 
 ---
 
-### 🚀 What I'm Doing
-
-- 🌐 **Open Source Core Engineering:** Contributing Python bug fixes, streaming engines, and technical documentation to top-tier AI packages (**[LiteLLM](https://github.com/BerriAI/litellm)**, **[Hugging Face](https://github.com/huggingface)**).
-- 🤖 **Applied AI & LLMs:** Building production-grade pipelines, Agentic tool-calling workflows, and RAG systems tailored to industrial and business automation.
-- ⚡ **Full-Cycle Engineering:** Architecting scalable APIs with FastAPI, managing containerized deployments (Docker), and enforcing rigorous testing and CI/CD pipelines.
+```yaml
+# system_manifest.yml
+identity: "I. Alonso"
+discipline: "AI Systems Engineering & Production Deployment"
+location: "Bilbao, Spain (CET / UTC+1)"
+philosophy: "From research notebooks to deterministic, low-latency production runtimes."
+recent_work:
+  - org: "BerriAI/litellm"
+    scope: "Streaming chunk builder & tool-call fragment reconstruction engine"
+  - org: "huggingface/course"
+    scope: "Transformers pipeline architecture & tokenizer mechanics"
+```
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### ⚡ Core Engineering & Architecture
+
+```
+  ┌───────────────────────────────────────────────────────────┐
+  │                 CLIENT / AGENTIC CONSUMER                 │
+  └─────────────────────────────┬─────────────────────────────┘
+                                │  REST / WebSocket (Streaming)
+  ┌─────────────────────────────▼─────────────────────────────┐
+  │         GATEWAY & ROUTING LAYER (FastAPI / LiteLLM)       │
+  │     • Tool-Call Assemblers   • Token Rate Limits          │
+  │     • Fallbacks & Retries    • Real-Time Spend Tracking   │
+  └─────────────────────────────┬─────────────────────────────┘
+                                │
+  ┌─────────────────────────────▼─────────────────────────────┐
+  │                MODEL & INFERENCE RUNTIMES                 │
+  │     • Transformers (HF)      • Vector Indexes (Embeddings)│
+  │     • Local & Cloud Backends • Structured Output Schemas  │
+  └───────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🛠️ Technical Arsenal
 
 <div align="center">
 
-| Domain | Technologies |
+| Layer | Stack |
 | :--- | :--- |
-| **AI & Machine Learning** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Transformers](https://img.shields.io/badge/Transformers-FFA000?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Scikit--Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
-| **Backend & APIs** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=flat-square) |
-| **DevOps & Infrastructure** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+| **AI / ML & Modeling** | ![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Transformers](https://img.shields.io/badge/Transformers-FFA000?style=flat-square) ![LiteLLM](https://img.shields.io/badge/LiteLLM-263238?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) |
+| **Backend & Services** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![REST/WebSocket](https://img.shields.io/badge/REST_%26_WebSocket-005571?style=flat-square) |
+| **Infra & Tooling** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux_x86%2Farm64-FCC624?style=flat-square&logo=linux&logoColor=black) |
 
 </div>
 
 ---
 
-### 🌟 Open Source Highlights
+### 🧬 Open Source Track Record
 
-- ⚡ **LiteLLM (`BerriAI/litellm`):** Core Python bug fix resolving streamed tool call fragmentation in `ChunkProcessor.get_combined_tool_content` and adding unit tests for multi-chunk streaming tool execution (PR [#44439](https://github.com/BerriAI/litellm/pull/44439) / Fixes [#44392](https://github.com/BerriAI/litellm/issues/44392)).
-- 📚 **Hugging Face (`huggingface/course`):** Contributor to the official [Hugging Face Course](https://github.com/huggingface/course) on Transformers, tokenization, and model internals (PR [#1325](https://github.com/huggingface/course/pull/1325)).
-- 💡 Passionate about clean code, robust streaming architectures, reproducible data pipelines, and high-impact developer tooling.
+* ⚡ **[BerriAI/litellm](https://github.com/BerriAI/litellm) (PR [#44439](https://github.com/BerriAI/litellm/pull/44439)):**
+  Engineered multi-chunk concatenation fix for streaming tool calls in `ChunkProcessor.get_combined_tool_content`, eliminating truncated `id` and `name` tokens during multi-vendor proxy streaming. Added comprehensive regression tests in `test_streaming_chunk_builder_utils.py`.
+* 🤗 **[huggingface/course](https://github.com/huggingface/course) (PR [#1325](https://github.com/huggingface/course/pull/1325)):**
+  Authored official Spanish curriculum for Chapter 2 (*Detrás del pipeline*), detailing raw text preprocessing, tensor projection, and logit distribution decoding. All CI builds validated green.
 
 ---
 
-### 📊 GitHub Activity & Insights
+### 📈 Telemetry & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ioseba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ioseba's GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ioseba&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ioseba&theme=tokyonight&hide_border=true" alt="I. Alonso GitHub Streak" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ioseba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="I. Alonso GitHub Stats" height="165" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ioseba&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="140" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>Designed with precision. Always learning, building, and delivering.</sub>
+  <sub><code>return {"status": 200, "maintainer": "I. Alonso", "build": "production"}</code></sub>
 </div>
