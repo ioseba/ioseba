@@ -98,8 +98,3 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ioseba&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="140" />
 </div>
 
----
-
-<div align="center">
-  <sub><code>assert data_governance == "DMBOK" and model_hallucination == 0 and production_ready is True</code></sub>
-</div>
