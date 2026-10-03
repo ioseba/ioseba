@@ -12,6 +12,7 @@
   <p>
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Open_Source-Contributor-00C853?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Contributor" /></a>
     <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face" /></a>
+    <a href="https://github.com/BerriAI/litellm"><img src="https://img.shields.io/badge/LiteLLM-Core_Contributor-5C6BC0?style=for-the-badge&logo=python&logoColor=white" alt="LiteLLM" /></a>
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Focus-Applied_AI_%26_Agents-7928CA?style=for-the-badge" alt="Applied AI" /></a>
   </p>
 </div>
@@ -20,8 +21,8 @@
 
 ### 🚀 What I'm Doing
 
-- 🌐 **Open Source Contributions:** Actively contributing to top AI ecosystems, including official documentation and technical guides for **[Hugging Face](https://github.com/huggingface)**.
-- 🤖 **Applied AI & LLMs:** Building production-ready pipelines, Agentic workflows, and RAG systems tailored to industrial and business automation.
+- 🌐 **Open Source Core Engineering:** Contributing Python bug fixes, streaming engines, and technical documentation to top-tier AI packages (**[LiteLLM](https://github.com/BerriAI/litellm)**, **[Hugging Face](https://github.com/huggingface)**).
+- 🤖 **Applied AI & LLMs:** Building production-grade pipelines, Agentic tool-calling workflows, and RAG systems tailored to industrial and business automation.
 - ⚡ **Full-Cycle Engineering:** Architecting scalable APIs with FastAPI, managing containerized deployments (Docker), and enforcing rigorous testing and CI/CD pipelines.
 
 ---
@@ -42,8 +43,9 @@
 
 ### 🌟 Open Source Highlights
 
+- ⚡ **LiteLLM (`BerriAI/litellm`):** Core Python bug fix resolving streamed tool call fragmentation in `ChunkProcessor.get_combined_tool_content` and adding unit tests for multi-chunk streaming tool execution (PR [#44439](https://github.com/BerriAI/litellm/pull/44439) / Fixes [#44392](https://github.com/BerriAI/litellm/issues/44392)).
 - 📚 **Hugging Face (`huggingface/course`):** Contributor to the official [Hugging Face Course](https://github.com/huggingface/course) on Transformers, tokenization, and model internals (PR [#1325](https://github.com/huggingface/course/pull/1325)).
-- 💡 Passionate about clean code, type annotations, reproducible data pipelines, and high-impact developer tooling.
+- 💡 Passionate about clean code, robust streaming architectures, reproducible data pipelines, and high-impact developer tooling.
 
 ---
 
