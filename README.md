@@ -12,9 +12,10 @@
   <p align="center">
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Open_Source-Contributor-00C853?style=flat-square&logo=github&logoColor=white" alt="Open Source Contributor" /></a>
     <a href="https://dama.org"><img src="https://img.shields.io/badge/CDMP%C2%AE-Data_Management_Professional-1E3A8A?style=flat-square" alt="CDMP Certified" /></a>
+    <a href="https://github.com/tidyverse/dplyr"><img src="https://img.shields.io/badge/Tidyverse-dplyr_Contributor-198CE7?style=flat-square&logo=R&logoColor=white" alt="Tidyverse Contributor" /></a>
     <a href="https://github.com/BerriAI/litellm"><img src="https://img.shields.io/badge/LiteLLM-Contributor-5C6BC0?style=flat-square&logo=python&logoColor=white" alt="LiteLLM Contributor" /></a>
     <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Contributor" /></a>
-    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_•_FastAPI_•_Docker-009688?style=flat-square" alt="Stack" /></a>
+    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_•_R_•_FastAPI_•_Docker-009688?style=flat-square" alt="Stack" /></a>
   </p>
 
 </div>
@@ -48,7 +49,7 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
 | **Software & Systems** | ![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white) ![LiteLLM](https://img.shields.io/badge/LiteLLM-263238?style=flat-square) ![SQL](https://img.shields.io/badge/SQL_PostgreSQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![REST/WS](https://img.shields.io/badge/REST_%26_WebSocket-005571?style=flat-square) |
-| **Data Science & ML** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
+| **Data Science & ML** | ![R](https://img.shields.io/badge/R_Language-276DC3?style=flat-square&logo=r&logoColor=white) ![Tidyverse](https://img.shields.io/badge/Tidyverse-198CE7?style=flat-square) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
 | **Data Governance** | ![DMBOK](https://img.shields.io/badge/Framework-DAMA--DMBOK-0A2540?style=flat-square) ![Data Quality](https://img.shields.io/badge/Discipline-Data_Quality-1E88E5?style=flat-square) ![Data Governance](https://img.shields.io/badge/Enterprise-Data_Governance-3949AB?style=flat-square) ![Metadata](https://img.shields.io/badge/Architecture-Metadata_Mgmt-5E35B1?style=flat-square) |
 | **DevOps & Tooling** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
 
@@ -58,6 +59,8 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ### 🌟 Open Source Engineering Track Record
 
+* 📦 **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) (PR [#7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
+  Addressed core semantic documentation ([#6968](https://github.com/tidyverse/dplyr/issues/6968)) for `filter()`, clarifying simultaneous vs. sequential evaluation when conditions compute summary and aggregation metrics.
 * ⚡ **[BerriAI/litellm](https://github.com/BerriAI/litellm) (PR [#44439](https://github.com/BerriAI/litellm/pull/44439)):**  
   Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
 * 🤗 **[huggingface/course](https://github.com/huggingface/course) (PR [#1325](https://github.com/huggingface/course/pull/1325)):**  
@@ -68,6 +71,10 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 ### 🏆 GitHub Official Achievements
 
 <div align="center">
+  <a href="https://github.com/ioseba?tab=achievements">
+    <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/public-sponsor-default.png" width="65" alt="Public Sponsor" title="Public Sponsor: Sponsored open source contributors" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/ioseba?tab=achievements">
     <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/pull-shark-default.png" width="65" alt="Pull Shark" title="Pull Shark: Opened and merged pull requests" />
   </a>
