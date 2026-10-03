@@ -1,19 +1,20 @@
 <div align="center">
 
-  <!-- Typing SVG Header -->
+  <!-- Dynamic Typing SVG Header -->
   <a href="https://github.com/ioseba">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1200&color=61AFEF&center=true&vCenter=true&width=700&height=50&lines=I.+Alonso;Data+Science+%26+Software+Engineering;Machine+Learning+%E2%86%92+Production+Systems;Open+Source+Contributor" alt="I. Alonso Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&pause=1200&color=61AFEF&center=true&vCenter=true&width=780&height=50&lines=I.+Alonso;Data+Science+%26+Software+Engineering;CDMP%C2%AE+%7C+Certified+Data+Management+Professional;%22Vibe+coding+is+fun%2C+but+production+demands+determinism.%22;Open+Source+Contributor+%40+LiteLLM+%26+Hugging+Face" alt="I. Alonso Typing SVG" />
   </a>
 
   <p align="center">
-    <strong>Bilbao, Spain 🇪🇸 &nbsp;|&nbsp; Data Science, Machine Learning & Software Engineering</strong>
+    <strong>Bilbao, Spain 🇪🇸 &nbsp;|&nbsp; Data Science, Enterprise Data Governance & Software Engineering</strong>
   </p>
 
   <p align="center">
-    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Discipline-Data_Science_%26_Engineering-0288D1?style=flat-square&logo=python&logoColor=white" alt="Data Science" /></a>
+    <a href="https://dama.org"><img src="https://img.shields.io/badge/CDMP%C2%AE-Certified_Data_Management_Professional-1E3A8A?style=flat-square" alt="CDMP Certified" /></a>
+    <a href="https://dama.org"><img src="https://img.shields.io/badge/DAMA_International-Member-0D47A1?style=flat-square" alt="DAMA Member" /></a>
+    <a href="https://dama-espana.org"><img src="https://img.shields.io/badge/DAMA_Espa%C3%B1a-Socio-0052CC?style=flat-square" alt="DAMA Espana" /></a>
     <a href="https://github.com/BerriAI/litellm"><img src="https://img.shields.io/badge/LiteLLM-Contributor-5C6BC0?style=flat-square&logo=python&logoColor=white" alt="LiteLLM Contributor" /></a>
     <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Contributor" /></a>
-    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_•_FastAPI_•_Docker-00C853?style=flat-square" alt="Stack" /></a>
   </p>
 
 </div>
@@ -22,11 +23,23 @@
 
 ### 💼 About & Focus
 
-I specialize in the intersection of **Data Science, Machine Learning, and Software Engineering** — bridging the gap between exploratory data modeling and scalable, deterministic production systems.
+I operate at the convergence of **Data Science, Enterprise Data Governance, and Software Engineering**.
 
-* 📊 **Data Science & Modeling:** Exploratory data analysis (EDA), statistical inference, predictive modeling, and feature engineering across structured and unstructured datasets.
-* ⚙️ **Software & ML Engineering:** Architecting robust Python applications, high-performance REST/WebSocket APIs with FastAPI, data validation with Pydantic, and automated test-driven suites (`pytest`).
-* 🌐 **Open Source Foundations:** Contributing bug fixes, streaming improvements, and technical documentation to widely adopted AI ecosystems (**LiteLLM**, **Hugging Face**).
+In the current landscape of rapid AI adoption and autonomous agents, enterprise systems rarely fail due to model capacity — they fail because of **poor data quality, lack of governance, and fragile runtime architecture**. I combine the **DAMA-DMBOK data governance framework** with **test-driven Python software engineering** to transform chaotic data into deterministic, production-grade applications.
+
+* 📊 **Data Science & Analytics:** Exploratory data analysis (EDA), statistical inference, predictive modeling, and feature engineering across structured and unstructured industrial datasets.
+* 🏛️ **Data Governance & Architecture (DAMA-DMBOK):** Certified in enterprise data management — specializing in Data Governance, Data Quality dimensions, Metadata Architecture, and Master Data Management (MDM).
+* ⚙️ **Software & ML Systems Engineering:** Architecting scalable REST and WebSocket services with FastAPI, strict runtime validation with Pydantic v2, streaming tool engines, and automated test suites (`pytest`).
+* 🌐 **Open Source Foundations:** Contributing bug fixes, streaming improvements, and curriculum documentation to foundational AI ecosystems (**LiteLLM**, **Hugging Face**).
+
+---
+
+### 🏛️ Professional Credentials & Data Governance
+
+* 🏅 **CDMP® — Certified Data Management Professional** ([DAMA International](https://dama.org)):  
+  The global gold-standard credential in data management, grounded in the **DAMA-DMBOK** (Data Management Body of Knowledge). Focus on Data Governance, Data Quality metrics, Data Architecture, and Information Ethics.
+* 🌐 **Member of DAMA International & DAMA España:**  
+  Actively participating in professional data management communities to promote data maturity, regulatory compliance, and enterprise readiness for modern AI pipelines.
 
 ---
 
@@ -34,10 +47,11 @@ I specialize in the intersection of **Data Science, Machine Learning, and Softwa
 
 <div align="center">
 
-| Domain | Technologies |
+| Domain | Technologies & Frameworks |
 | :--- | :--- |
 | **Data Science & ML** | ![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
-| **Backend & Engineering** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white) ![LiteLLM](https://img.shields.io/badge/LiteLLM-263238?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![REST/WS](https://img.shields.io/badge/REST_%26_WebSocket-005571?style=flat-square) |
+| **Software & Systems** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white) ![LiteLLM](https://img.shields.io/badge/LiteLLM-263238?style=flat-square) ![SQL](https://img.shields.io/badge/SQL_PostgreSQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![REST/WS](https://img.shields.io/badge/REST_%26_WebSocket-005571?style=flat-square) |
+| **Data Governance** | ![DMBOK](https://img.shields.io/badge/Framework-DAMA--DMBOK-0A2540?style=flat-square) ![Data Quality](https://img.shields.io/badge/Discipline-Data_Quality-1E88E5?style=flat-square) ![Data Governance](https://img.shields.io/badge/Enterprise-Data_Governance-3949AB?style=flat-square) ![Metadata](https://img.shields.io/badge/Architecture-Metadata_Mgmt-5E35B1?style=flat-square) |
 | **DevOps & Tooling** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
 
 </div>
@@ -53,7 +67,7 @@ I specialize in the intersection of **Data Science, Machine Learning, and Softwa
 
 ---
 
-### 📊 Activity & Metrics
+### 📊 Telemetry & Activity
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ioseba&theme=tokyonight&hide_border=true" alt="I. Alonso GitHub Streak" height="165" />
@@ -67,5 +81,5 @@ I specialize in the intersection of **Data Science, Machine Learning, and Softwa
 ---
 
 <div align="center">
-  <sub>Building rigorous data pipelines & resilient software systems.</sub>
+  <sub><code>assert data_governance == "DMBOK" and model_hallucination == 0 and production_ready is True</code></sub>
 </div>
