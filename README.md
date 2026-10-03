@@ -11,7 +11,7 @@
 
   <p align="center">
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Discipline-Data_Science_%26_Engineering-0288D1?style=flat-square&logo=python&logoColor=white" alt="Data Science" /></a>
-    <a href="https://github.com/BerriAI/litellm"><img src="https://img.shields.io/badge/LiteLLM-Core_Contributor-5C6BC0?style=flat-square&logo=python&logoColor=white" alt="LiteLLM Contributor" /></a>
+    <a href="https://github.com/BerriAI/litellm"><img src="https://img.shields.io/badge/LiteLLM-Contributor-5C6BC0?style=flat-square&logo=python&logoColor=white" alt="LiteLLM Contributor" /></a>
     <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Contributor" /></a>
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_•_FastAPI_•_Docker-00C853?style=flat-square" alt="Stack" /></a>
   </p>
@@ -26,7 +26,7 @@ I specialize in the intersection of **Data Science, Machine Learning, and Softwa
 
 * 📊 **Data Science & Modeling:** Exploratory data analysis (EDA), statistical inference, predictive modeling, and feature engineering across structured and unstructured datasets.
 * ⚙️ **Software & ML Engineering:** Architecting robust Python applications, high-performance REST/WebSocket APIs with FastAPI, data validation with Pydantic, and automated test-driven suites (`pytest`).
-* 🌐 **Open Source Foundations:** Actively contributing core bug fixes and technical documentation to widely adopted AI ecosystems (**LiteLLM**, **Hugging Face**).
+* 🌐 **Open Source Foundations:** Contributing bug fixes, streaming improvements, and technical documentation to widely adopted AI ecosystems (**LiteLLM**, **Hugging Face**).
 
 ---
 
@@ -47,7 +47,7 @@ I specialize in the intersection of **Data Science, Machine Learning, and Softwa
 ### 🌟 Open Source Track Record
 
 * ⚡ **[BerriAI/litellm](https://github.com/BerriAI/litellm) (PR [#44439](https://github.com/BerriAI/litellm/pull/44439)):**  
-  Resolved tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, fixing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
+  Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
 * 🤗 **[huggingface/course](https://github.com/huggingface/course) (PR [#1325](https://github.com/huggingface/course/pull/1325)):**  
   Authored official curriculum for Chapter 2 (*Detrás del pipeline*), covering tokenization, tensor operations, and logit distribution decoding. All CI builds validated green.
 
