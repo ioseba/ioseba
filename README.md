@@ -67,6 +67,54 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ---
 
+### 🧭 Open Source Tech Radar & Essential Ecosystem
+
+A curated index of canonical, high-impact open-source repositories shaping enterprise data governance, high-performance data engines, and production AI systems:
+
+<details open>
+<summary><b>🏛️ Enterprise Data Governance & Data Quality (CDMP® Alignment)</b></summary>
+<br/>
+
+| Repository | Discipline | Highlights |
+| :--- | :--- | :--- |
+| [**OpenMetadata**](https://github.com/open-metadata/OpenMetadata) | `Metadata` `Lineage` `Discovery` | Open Context Layer offering end-to-end data lineage, active data governance, automated data contracts, and unified team collaboration. |
+| [**DataHub**](https://github.com/datahub-project/datahub) | `Data Catalog` `Observability` | LinkedIn-originated stream-based metadata platform designed for high-scale enterprise search, data mesh topologies, and compliance tracking. |
+| [**Great Expectations**](https://github.com/great-expectations/great_expectations) | `Data Quality` `Automated Testing` | Industry benchmark for declarative data validation, automated pipeline assertions, and living data documentation (*Data Docs*). |
+| [**OpenLineage**](https://github.com/OpenLineage/OpenLineage) | `Data Lineage` `Open Standard` | Standardized framework for collecting operational runtime lineage metadata across Airflow, Spark, dbt, and modern orchestrators. |
+| [**Soda Core**](https://github.com/sodadata/soda-core) | `Data Contracts` `SodaCL` | Developer-friendly declarative data contracts engine and quality monitor integrated directly into transformation pipelines. |
+
+</details>
+
+<details open>
+<summary><b>⚡ High-Performance Data Engines, Analytics & Visualization</b></summary>
+<br/>
+
+| Repository | Discipline | Highlights |
+| :--- | :--- | :--- |
+| [**DuckDB**](https://github.com/duckdb/duckdb) | `Embedded OLAP` `Vectorized SQL` | Fast, in-process analytical SQL database engine with zero external dependencies; the canonical "SQLite for Analytics" for fast local & object storage querying. |
+| [**Polars**](https://github.com/pola-rs/polars) | `Rust DataFrames` `Out-of-Core` | Blazingly fast multi-threaded columnar DataFrame library built in Rust, leveraging memory locality and lazy query evaluation. |
+| [**Apache Arrow**](https://github.com/apache/arrow) | `Columnar In-Memory` `Zero-Copy` | The global cross-language substrate powering high-throughput in-memory data processing, interoperability, and analytical compute. |
+| [**dbt-core**](https://github.com/dbt-labs/dbt) | `Analytics Engineering` `Data Modeling` | The foundational standard bringing software engineering rigor (git, testing, CI/CD, documentation) to SQL-based data transformations. |
+| [**Apache Superset**](https://github.com/apache/superset) | `Enterprise BI` `Exploratory Viz` | Highly scalable, modern enterprise business intelligence and data visualization platform supporting any SQL dialect. |
+
+</details>
+
+<details open>
+<summary><b>🤖 Modern AI Systems & LLM Gateway Infrastructure</b></summary>
+<br/>
+
+| Repository | Discipline | Highlights |
+| :--- | :--- | :--- |
+| [**vLLM**](https://github.com/vllm-project/vllm) | `LLM Inference` `PagedAttention` | High-throughput, memory-optimized serving engine with continuous batching for production self-hosted LLM deployments. |
+| [**LiteLLM**](https://github.com/BerriAI/litellm) | `AI Gateway` `Proxy & Governance` | Enterprise AI gateway unifying 100+ LLM backends behind an OpenAI-compatible interface with load balancing, rate limiting, and cost controls. |
+| [**Transformers**](https://github.com/huggingface/transformers) | `Foundation Models` `PyTorch / JAX` | The definitive library for downloading, training, fine-tuning, and evaluating state-of-the-art vision, audio, and language models. |
+| [**Ollama**](https://github.com/ollama/ollama) | `Local LLM Runtime` `Go / C++` | Lightweight, user-friendly execution environment for local and privacy-first LLM inference across desktop and edge hardware. |
+| [**LlamaIndex**](https://github.com/run-llama/llama_index) | `Data Framework` `RAG & Agents` | Advanced data connector and index orchestration layer connecting enterprise databases and unstructured lakes to LLMs. |
+
+</details>
+
+---
+
 ### 🏆 GitHub Official Achievements
 
 <div align="center">
