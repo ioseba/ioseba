@@ -2,7 +2,7 @@
 
   <!-- Dynamic Typing SVG Header -->
   <a href="https://github.com/ioseba">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&pause=1200&color=61AFEF&center=true&vCenter=true&width=780&height=50&lines=I.+Alonso;Data+Science+%26+Software+Engineering;CDMP%C2%AE+%7C+Certified+Data+Management+Professional;%22Vibe+coding+is+fun%2C+but+production+demands+determinism.%22;Open+Source+Contributor+%40+LiteLLM+%26+Hugging+Face" alt="I. Alonso Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&pause=1200&color=61AFEF&center=true&vCenter=true&width=780&height=50&lines=I.+Alonso;Data+Science+%26+Software+Engineering;CDMP%C2%AE+%7C+Certified+Data+Management+Professional;%22Vibe+coding+is+fun%2C+but+production+demands+determinism.%22;Enterprise+Data+Management+%26+Open+Source" alt="I. Alonso Typing SVG" />
   </a>
 
   <p align="center">
@@ -10,10 +10,8 @@
   </p>
 
   <p align="center">
-    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Open_Source-Contributor-00C853?style=flat-square&logo=github&logoColor=white" alt="Open Source Contributor" /></a>
+    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Open_Source-Collaborator-00C853?style=flat-square&logo=github&logoColor=white" alt="Open Source Collaborator" /></a>
     <a href="https://dama.org"><img src="https://img.shields.io/badge/CDMP%C2%AE-Data_Management_Professional-1E3A8A?style=flat-square" alt="CDMP Certified" /></a>
-    <a href="https://github.com/tidyverse/dplyr"><img src="https://img.shields.io/badge/Tidyverse-dplyr_Contributor-198CE7?style=flat-square&logo=R&logoColor=white" alt="Tidyverse Contributor" /></a>
-    <a href="https://github.com/BerriAI/litellm"><img src="https://img.shields.io/badge/LiteLLM-Contributor-5C6BC0?style=flat-square&logo=python&logoColor=white" alt="LiteLLM Contributor" /></a>
     <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Contributor" /></a>
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_•_R_•_FastAPI_•_Docker-009688?style=flat-square" alt="Stack" /></a>
   </p>
@@ -30,7 +28,7 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 * ⚙️ **Software & Systems Engineering:** Architecting scalable microservices, low-latency REST and WebSocket streaming APIs with FastAPI, runtime data contracts with Pydantic v2, and strict test-driven development (`pytest`).
 * 📊 **Data Science & Modeling:** Exploratory data analysis (EDA), statistical inference, predictive modeling, and feature engineering across structured and unstructured industrial datasets (Pandas, NumPy, Scikit-Learn, PyTorch).
-* 🌐 **Open Source Foundations:** Active open-source contributor fixing core bugs, multi-chunk streaming engines, and technical documentation in foundational AI repositories (**LiteLLM**, **Hugging Face**).
+* 🌐 **Open Source Foundations:** Active open-source collaborator contributing targeted fixes, multi-chunk streaming engines, and technical documentation in foundational AI repositories (**LiteLLM**, **Hugging Face**).
 * 🏛️ **Enterprise Data Management (CDMP®):** Grounded in the DAMA-DMBOK framework — enforcing Data Quality dimensions, Data Governance, Metadata Management, and Master Data Architecture (MDM).
 
 ---
@@ -57,13 +55,14 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ---
 
-### 🌟 Open Source Engineering Track Record
+### 🌟 Open Source & Community Contributions
 
-* 📦 **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) (PR [#7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
+* ⚡ **[BerriAI/litellm](https://github.com/BerriAI/litellm):**  
+  * **[PR #44439](https://github.com/BerriAI/litellm/pull/44439):** Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
+  * **[PR #44459](https://github.com/BerriAI/litellm/pull/44459):** Set status description on OpenTelemetry error spans ([#44184](https://github.com/BerriAI/litellm/issues/44184)), ensuring observability pipelines capture root-cause exception messages.
+* 📦 **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) ([PR #7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
   Addressed core semantic documentation ([#6968](https://github.com/tidyverse/dplyr/issues/6968)) for `filter()`, clarifying simultaneous vs. sequential evaluation when conditions compute summary and aggregation metrics.
-* ⚡ **[BerriAI/litellm](https://github.com/BerriAI/litellm) (PR [#44439](https://github.com/BerriAI/litellm/pull/44439)):**  
-  Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
-* 🤗 **[huggingface/course](https://github.com/huggingface/course) (PR [#1325](https://github.com/huggingface/course/pull/1325)):**  
+* 🤗 **[huggingface/course](https://github.com/huggingface/course) ([PR #1325](https://github.com/huggingface/course/pull/1325)):**  
   Authored official curriculum for Chapter 2 (*Detrás del pipeline*), covering tokenization, tensor operations, and logit distribution decoding. All CI builds validated green.
 
 ---
