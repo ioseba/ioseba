@@ -58,6 +58,8 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ### Open Source & Community Contributions
 
+* **[plotly/plotly.py](https://github.com/plotly/plotly.py):**
+  * **[PR #5809](https://github.com/plotly/plotly.py/pull/5809):** Fixed spurious `UserWarning: The kopts argument is ignored if using a server.` during static image export when `kaleido.start_sync_server()` is active ([#5786](https://github.com/plotly/plotly.py/issues/5786)), keeping default OSM tile headers while avoiding redundant option passing to running Kaleido instances.
 * **[huggingface/smolagents](https://github.com/huggingface/smolagents):**
   * **[PR #2953](https://github.com/huggingface/smolagents/pull/2953):** Made `space_sdk` configurable in `CodeAgent.push_to_hub()`, resolving deployment errors (`402 Payment Required`) on static spaces and custom hub configurations.
   * **[PR #2952](https://github.com/huggingface/smolagents/pull/2952):** Documented missing execution parameters (`authorized_imports` and `max_print_outputs_length`) in `local_python_executor.evaluate_python_code` with regression test coverage.
