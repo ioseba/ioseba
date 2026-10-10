@@ -77,11 +77,14 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 
 | Repository | Discipline | Highlights |
 | :--- | :--- | :--- |
+| [**zichengzichengzi/Scrap_Steel_Image_Dataset**](https://github.com/zichengzichengzi/Scrap_Steel_Image_Dataset) | `Scrap Grading` `Object Detection` | Specialized open dataset and annotations for automated scrap steel grading, sorting, and hazardous non-metallic impurity detection. |
+| [**stepanje/MPDD**](https://github.com/stepanje/MPDD) | `Metal Parts AD` `Manufacturing Flaws` | Metal Parts Defect Detection benchmark dataset for computer vision, covering painted, non-painted, and machined metal surfaces with irregular defects. |
 | [**khornlund/severstal-steel-defect-detection**](https://github.com/khornlund/severstal-steel-defect-detection) | `Defect Segmentation` `Hot-Rolled Steel` | Canonical benchmark implementation for the Severstal steel defect challenge. PyTorch segmentation of pitting, inclusion, and surface roll cracks in continuous manufacturing lines. |
 | [**YeahHuang/Al_surface_defect_detection**](https://github.com/YeahHuang/Al_surface_defect_detection) | `Aluminum Defect AI` `Extrusion & Sheet` | Benchmark vision pipelines for industrial aluminum surface defect classification and segmentation (coating spots, non-metallic inclusions, peeling, and scratches). |
 | [**siddhartamukherjee/NEU-DET-Steel-Surface-Defect-Detection**](https://github.com/siddhartamukherjee/NEU-DET-Steel-Surface-Defect-Detection) | `NEU-DET Benchmark` `Surface Flaws` | Comprehensive deep learning implementation on Northeastern University's steel surface defect dataset (crazing, inclusion, patches, pitted surface, rolled-in scale, and scratches). |
 | [**spectralpython/spectral**](https://github.com/spectralpython/spectral) | `Hyperspectral AI` `Alloy Classification` | Fundamental Python package for hyperspectral and multispectral image processing, used in automated scrap sorting lines to distinguish non-ferrous aluminum alloys (series 5xxx vs 6xxx). |
 | [**xraypy/xraylarch**](https://github.com/xraypy/xraylarch) | `XRF / LIBS Spectroscopy` `Metal Characterization` | Open-source Python library for X-ray fluorescence (XRF) and spectroscopy data analysis, essential for scrap elemental composition and impurity verification. |
+| [**DLR-WR/libskit**](https://github.com/DLR-WR/libskit) | `LIBS Spectroscopy` `Alloy Chemistry` | Software toolkit for Laser-Induced Breakdown Spectroscopy (LIBS) spectral processing and fast elemental quantification in inline metal scrap analysis. |
 
 </details>
 
