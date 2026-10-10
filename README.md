@@ -12,7 +12,7 @@
   <p align="center">
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Open_Source-Collaborator-00C853?style=flat-square&logo=github&logoColor=white" alt="Open Source Collaborator" /></a>
     <a href="https://dama.org"><img src="https://img.shields.io/badge/CDMP%C2%AE-Data_Management_Professional-1E3A8A?style=flat-square" alt="CDMP Certified" /></a>
-    <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Contributor" /></a>
+    <a href="https://huggingface.co/ioseba"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Contributor" /></a>
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_•_R_•_FastAPI_•_Docker-009688?style=flat-square" alt="Stack" /></a>
     <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai"><img src="https://img.shields.io/badge/Awesome-Metallurgy_%26_AI-E06C75?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome Metallurgy & AI" /></a>
   </p>
@@ -21,27 +21,27 @@
 
 ---
 
-### 💼 About & Core Engineering Focus
+### About & Core Engineering Focus
 
 I operate at the intersection of **Data Science, Software Engineering, and Enterprise Data Management**.
 
 In 2026, enterprise software and AI systems don't fail from lack of raw model capacity — they fail due to **untamed data quality, brittle architecture, and lack of deterministic engineering**. I combine **rigorous Python software engineering** with **DAMA-DMBOK data management principles** to transform complex data into resilient, scalable, production-grade applications.
 
-* ⚙️ **Software & Systems Engineering:** Architecting scalable microservices, low-latency REST and WebSocket streaming APIs with FastAPI, runtime data contracts with Pydantic v2, and strict test-driven development (`pytest`).
-* 📊 **Data Science & Modeling:** Exploratory data analysis (EDA), statistical inference, predictive modeling, and feature engineering across structured and unstructured industrial datasets (Pandas, NumPy, Scikit-Learn, PyTorch).
-* 🌐 **Open Source Foundations:** Active open-source collaborator contributing targeted fixes, multi-chunk streaming engines, and technical documentation in foundational AI repositories (**LiteLLM**, **Hugging Face**).
-* 🏛️ **Enterprise Data Management (CDMP®):** Grounded in the DAMA-DMBOK framework — enforcing Data Quality dimensions, Data Governance, Metadata Management, and Master Data Architecture (MDM).
+* **Software & Systems Engineering:** Architecting scalable microservices, low-latency REST and WebSocket streaming APIs with FastAPI, runtime data contracts with Pydantic v2, and strict test-driven development (`pytest`).
+* **Data Science & Modeling:** Exploratory data analysis (EDA), statistical inference, predictive modeling, and feature engineering across structured and unstructured industrial datasets (Pandas, NumPy, Scikit-Learn, PyTorch).
+* **Open Source Foundations:** Active open-source collaborator contributing targeted core features, multi-chunk streaming engines, and comprehensive localization across foundational AI repositories (**LiteLLM**, **Hugging Face**).
+* **Enterprise Data Management (CDMP®):** Grounded in the DAMA-DMBOK framework — enforcing Data Quality dimensions, Data Governance, Metadata Management, and Master Data Architecture (MDM).
 
 ---
 
-### 🏛️ Professional Credentials
+### Professional Credentials
 
-* 🏅 **CDMP® — Certified Data Management Professional** ([DAMA International](https://dama.org)):  
+* **CDMP® — Certified Data Management Professional** ([DAMA International](https://dama.org)):  
   The global gold-standard certification in enterprise data management and the **DAMA-DMBOK** (Data Management Body of Knowledge). Specializing in Data Quality metrics, Data Governance frameworks, and Enterprise Data Architecture.
 
 ---
 
-### 🛠️ Technical Stack
+### Technical Stack
 
 <div align="center">
 
@@ -56,19 +56,24 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ---
 
-### 🌟 Open Source & Community Contributions
+### Open Source & Community Contributions
 
-* ⚡ **[BerriAI/litellm](https://github.com/BerriAI/litellm):**  
-  * **[PR #44439](https://github.com/BerriAI/litellm/pull/44439):** Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
-  * **[PR #44459](https://github.com/BerriAI/litellm/pull/44459):** Set status description on OpenTelemetry error spans ([#44184](https://github.com/BerriAI/litellm/issues/44184)), ensuring observability pipelines capture root-cause exception messages.
-* 📦 **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) ([PR #7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
+* **[huggingface/smolagents](https://github.com/huggingface/smolagents):**
+  * **[PR #2953](https://github.com/huggingface/smolagents/pull/2953):** Made `space_sdk` configurable in `CodeAgent.push_to_hub()`, resolving deployment errors (`402 Payment Required`) on static spaces and custom hub configurations.
+  * **[PR #2952](https://github.com/huggingface/smolagents/pull/2952):** Documented missing execution parameters (`authorized_imports` and `max_print_outputs_length`) in `local_python_executor.evaluate_python_code` with regression test coverage.
+* **[huggingface/course](https://github.com/huggingface/course):**
+  * Lead contributor to the Spanish curriculum with **29 dedicated pull requests** covering 100% of the entire course: Transformers, tokenization, distributed inference (**vLLM** PagedAttention, **TGI**, **llama.cpp**), Argilla data curation, Gradio demos, and Reasoning Models (**DeepSeek R1 / GRPO** in TRL).
+* **[huggingface/agents-course](https://github.com/huggingface/agents-course):**
+  * **[PR #756](https://github.com/huggingface/agents-course/pull/756):** Synchronized Unit 2.1 (`smolagents` and code agents) with upstream reference curriculum and fixed navigation indices.
+* **[BerriAI/litellm](https://github.com/BerriAI/litellm):**  
+  * **[PR #44439](https://github.com/BerriAI/litellm/pull/44439):** Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming.
+  * **[PR #44459](https://github.com/BerriAI/litellm/pull/44459):** Set status description on OpenTelemetry error spans ([#44184](https://github.com/BerriAI/litellm/issues/44184)), capturing root-cause exception messages in observability collectors.
+* **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) ([PR #7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
   Addressed core semantic documentation ([#6968](https://github.com/tidyverse/dplyr/issues/6968)) for `filter()`, clarifying simultaneous vs. sequential evaluation when conditions compute summary and aggregation metrics.
-* 🤗 **[huggingface/course](https://github.com/huggingface/course) ([PR #1325](https://github.com/huggingface/course/pull/1325)):**  
-  Authored official curriculum for Chapter 2 (*Detrás del pipeline*), covering tokenization, tensor operations, and logit distribution decoding. All CI builds validated green.
 
 ---
 
-### 🧭 Open Source Tech Radar & Essential Ecosystem
+### Open Source Tech Radar & Essential Ecosystem
 
 A curated index of canonical, high-impact open-source repositories shaping metallurgical vision, scrap characterization, industrial thermography, enterprise data governance, and high-performance analytical systems:
 
@@ -78,14 +83,14 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 [![Awesome Metallurgy AI](https://img.shields.io/github/stars/ioseba/awesome-industrial-metallurgy-ai?style=flat-square&color=E06C75&label=awesome-industrial-metallurgy-ai)](https://github.com/ioseba/awesome-industrial-metallurgy-ai)
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-98C379?style=flat-square)](https://github.com/ioseba/awesome-industrial-metallurgy-ai/blob/main/LICENSE)
 
-> 🌟 **Canonical Ecosystem Repository:**  
+> **Canonical Ecosystem Repository:**  
 > For the comprehensive, deep directory with architectural diagrams, combustion solvers, and benchmark datasets, explore:  
 > [**ioseba/awesome-industrial-metallurgy-ai**](https://github.com/ioseba/awesome-industrial-metallurgy-ai) — *Awesome list covering Secondary Aluminum Recycling, LWIR Radiometric Thermography, Refractory Computer Vision, and Casthouse IIoT.*
 
 </div>
 
 <details open>
-<summary><b>⚙️ Metallurgy, Scrap Metal Characterization & Steel/Aluminum Inspection</b></summary>
+<summary><b>Metallurgy, Scrap Metal Characterization & Steel/Aluminum Inspection</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
@@ -103,7 +108,7 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 </details>
 
 <details open>
-<summary><b>🔥 Aluminum Recycling Furnaces, Thermodynamics & Combustion Engineering</b></summary>
+<summary><b>Aluminum Recycling Furnaces, Thermodynamics & Combustion Engineering</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
@@ -120,7 +125,7 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 </details>
 
 <details open>
-<summary><b>🔥 Industrial Computer Vision, Surface Defect Detection & Anomaly Inspection</b></summary>
+<summary><b>Industrial Computer Vision, Surface Defect Detection & Anomaly Inspection</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
@@ -134,7 +139,7 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 </details>
 
 <details open>
-<summary><b>🌡️ Thermal Imaging, Radiometric Vision & High-Temperature Monitoring</b></summary>
+<summary><b>Thermal Imaging, Radiometric Vision & High-Temperature Monitoring</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
@@ -147,7 +152,7 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 </details>
 
 <details open>
-<summary><b>🏭 Industrial IoT, OPC-UA & Telemetry Sensor Fusion</b></summary>
+<summary><b>Industrial IoT, OPC-UA & Telemetry Sensor Fusion</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
@@ -160,7 +165,7 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 </details>
 
 <details open>
-<summary><b>🏛️ Enterprise Data Governance & Data Quality (CDMP® Alignment)</b></summary>
+<summary><b>Enterprise Data Governance & Data Quality (CDMP® Alignment)</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
@@ -174,7 +179,7 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 </details>
 
 <details open>
-<summary><b>⚡ High-Performance Data Engines, Analytics & Visualization</b></summary>
+<summary><b>High-Performance Data Engines, Analytics & Visualization</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
@@ -188,7 +193,7 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 </details>
 
 <details open>
-<summary><b>🤖 Modern AI Systems & Edge Inference Engines</b></summary>
+<summary><b>Modern AI Systems & Edge Inference Engines</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
@@ -203,7 +208,7 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 
 ---
 
-### 🏆 GitHub Official Achievements
+### GitHub Official Achievements
 
 <div align="center">
   <a href="https://github.com/ioseba?tab=achievements">
@@ -229,13 +234,13 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 
 ---
 
-### 📊 Telemetry & Activity
+### Telemetry & Activity
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ioseba&theme=tokyonight&hide_border=true" alt="I. Alonso GitHub Streak" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api?username=ioseba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="I. Alonso GitHub Stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ioseba&theme=tokyonight&hide_border=true" alt="I. Alonso GitHub Streak" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ioseba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="I. Alonso GitHub Stats" height="160" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ioseba&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="140" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ioseba&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="135" />
 </div>
