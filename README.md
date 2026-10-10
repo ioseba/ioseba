@@ -58,20 +58,48 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ### Open Source & Community Contributions
 
-* **[plotly/plotly.py](https://github.com/plotly/plotly.py):**
-  * **[PR #5809](https://github.com/plotly/plotly.py/pull/5809):** Fixed spurious `UserWarning: The kopts argument is ignored if using a server.` during static image export when `kaleido.start_sync_server()` is active ([#5786](https://github.com/plotly/plotly.py/issues/5786)), keeping default OSM tile headers while avoiding redundant option passing to running Kaleido instances.
 * **[huggingface/smolagents](https://github.com/huggingface/smolagents):**
   * **[PR #2953](https://github.com/huggingface/smolagents/pull/2953):** Made `space_sdk` configurable in `CodeAgent.push_to_hub()`, resolving deployment errors (`402 Payment Required`) on static spaces and custom hub configurations.
   * **[PR #2952](https://github.com/huggingface/smolagents/pull/2952):** Documented missing execution parameters (`authorized_imports` and `max_print_outputs_length`) in `local_python_executor.evaluate_python_code` with regression test coverage.
-* **[huggingface/course](https://github.com/huggingface/course):**
-  * Lead contributor to the Spanish curriculum with **29 dedicated pull requests** covering 100% of the entire course: Transformers, tokenization, distributed inference (**vLLM** PagedAttention, **TGI**, **llama.cpp**), Argilla data curation, Gradio demos, and Reasoning Models (**DeepSeek R1 / GRPO** in TRL).
 * **[huggingface/agents-course](https://github.com/huggingface/agents-course):**
   * **[PR #756](https://github.com/huggingface/agents-course/pull/756):** Synchronized Unit 2.1 (`smolagents` and code agents) with upstream reference curriculum and fixed navigation indices.
+* **[huggingface/course](https://github.com/huggingface/course):**
+  * Lead contributor to the Spanish curriculum with **29 dedicated pull requests** covering 100% of the entire course: Transformers, tokenization, distributed inference (**vLLM** PagedAttention, **TGI**, **llama.cpp**), Argilla data curation, Gradio demos, and Reasoning Models (**DeepSeek R1 / GRPO** in TRL).
+  <details>
+  <summary><b>Expand list of 29 Hugging Face Course Pull Requests</b></summary>
+  <br/>
+
+  | Module | Pull Requests | Topic |
+  | :--- | :--- | :--- |
+  | **Chapter 1** | [#1330](https://github.com/huggingface/course/pull/1330) | Certification Exam (`chapter1/11.mdx`) |
+  | **Chapter 2** | [#1325](https://github.com/huggingface/course/pull/1325), [#1329](https://github.com/huggingface/course/pull/1329), [#1333](https://github.com/huggingface/course/pull/1333), [#1349](https://github.com/huggingface/course/pull/1349) | Pipelines, Models, TGI, vLLM, llama.cpp & Quiz |
+  | **Chapter 3** | [#1330](https://github.com/huggingface/course/pull/1330) | Certification Quiz (`chapter3/7.mdx`) |
+  | **Chapter 4** | [#1331](https://github.com/huggingface/course/pull/1331), [#1332](https://github.com/huggingface/course/pull/1332), [#1334](https://github.com/huggingface/course/pull/1334), [#1335](https://github.com/huggingface/course/pull/1335), [#1336](https://github.com/huggingface/course/pull/1336) | Model Hub, Pretrained Models, Model Cards & Quiz |
+  | **Chapter 7** | [#1350](https://github.com/huggingface/course/pull/1350), [#1351](https://github.com/huggingface/course/pull/1351), [#1352](https://github.com/huggingface/course/pull/1352), [#1353](https://github.com/huggingface/course/pull/1353) | Token Classification, Masked LM, Translation, Summarization, CLM, QA & LLMs |
+  | **Chapter 8** | [#1337](https://github.com/huggingface/course/pull/1337), [#1338](https://github.com/huggingface/course/pull/1338), [#1339](https://github.com/huggingface/course/pull/1339), [#1341](https://github.com/huggingface/course/pull/1341) | Forums, PyTorch & TensorFlow Training Pipeline Debugging & Issues |
+  | **Chapter 9** | [#1342](https://github.com/huggingface/course/pull/1342), [#1343](https://github.com/huggingface/course/pull/1343), [#1344](https://github.com/huggingface/course/pull/1344), [#1345](https://github.com/huggingface/course/pull/1345) | Gradio Interfaces, Sharing Demos, Spaces Integration, Blocks & Quiz |
+  | **Chapter 10** | [#1346](https://github.com/huggingface/course/pull/1346), [#1347](https://github.com/huggingface/course/pull/1347), [#1348](https://github.com/huggingface/course/pull/1348) | Argilla Dataset Annotation, Setup, Verification & Quiz |
+  | **Chapter 11** | [#1354](https://github.com/huggingface/course/pull/1354) | Fine-tuning Large Language Models (Sections 1 to 7) |
+  | **Chapter 12** | [#1355](https://github.com/huggingface/course/pull/1355), [#1356](https://github.com/huggingface/course/pull/1356) | Reasoning Models, DeepSeek R1 & GRPO in TRL & Unsloth |
+  | **Events** | [#1340](https://github.com/huggingface/course/pull/1340) | Community Launch Events & Challenges |
+
+  </details>
+
+#### AI Infrastructure, Gateway & Observability
+
 * **[BerriAI/litellm](https://github.com/BerriAI/litellm):**  
-  * **[PR #44439](https://github.com/BerriAI/litellm/pull/44439):** Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming.
+  * **[PR #44439](https://github.com/BerriAI/litellm/pull/44439):** Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
   * **[PR #44459](https://github.com/BerriAI/litellm/pull/44459):** Set status description on OpenTelemetry error spans ([#44184](https://github.com/BerriAI/litellm/issues/44184)), capturing root-cause exception messages in observability collectors.
+
+#### Data Science, Standards & Visualization
+
+* **[plotly/plotly.py](https://github.com/plotly/plotly.py):**
+  * **[PR #5809](https://github.com/plotly/plotly.py/pull/5809):** Fixed spurious UserWarning: The kopts argument is ignored if using a server. during static image export when kaleido.start_sync_server() is active ([#5786](https://github.com/plotly/plotly.py/issues/5786)), keeping default OSM tile headers while avoiding redundant option passing to running Kaleido instances.
+
 * **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) ([PR #7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
   Addressed core semantic documentation ([#6968](https://github.com/tidyverse/dplyr/issues/6968)) for `filter()`, clarifying simultaneous vs. sequential evaluation when conditions compute summary and aggregation metrics.
+* **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ([PR #15720](https://github.com/punkpeye/awesome-mcp-servers/pull/15720)):**  
+  Contributed the Enterprise Data Governance MCP server implementing DAMA-DMBOK quality dimensions and metadata tools for Claude/Desktop AI agents.
 
 ---
 
@@ -237,6 +265,15 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 ---
 
 ### Telemetry & Activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ioseba/ioseba/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ioseba/ioseba/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/ioseba/ioseba/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</div>
+<br/>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ioseba&theme=tokyonight&hide_border=true" alt="I. Alonso GitHub Streak" height="160" />
