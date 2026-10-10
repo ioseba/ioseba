@@ -14,6 +14,7 @@
     <a href="https://dama.org"><img src="https://img.shields.io/badge/CDMP%C2%AE-Data_Management_Professional-1E3A8A?style=flat-square" alt="CDMP Certified" /></a>
     <a href="https://huggingface.co"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Contributor" /></a>
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_•_R_•_FastAPI_•_Docker-009688?style=flat-square" alt="Stack" /></a>
+    <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai"><img src="https://img.shields.io/badge/Awesome-Metallurgy_%26_AI-E06C75?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome Metallurgy & AI" /></a>
   </p>
 
 </div>
@@ -71,12 +72,25 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 A curated index of canonical, high-impact open-source repositories shaping metallurgical vision, scrap characterization, industrial thermography, enterprise data governance, and high-performance analytical systems:
 
+<div align="center">
+
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ioseba/awesome-industrial-metallurgy-ai)
+[![Awesome Metallurgy AI](https://img.shields.io/github/stars/ioseba/awesome-industrial-metallurgy-ai?style=flat-square&color=E06C75&label=awesome-industrial-metallurgy-ai)](https://github.com/ioseba/awesome-industrial-metallurgy-ai)
+[![License: CC0](https://img.shields.io/badge/License-CC0_1.0-98C379?style=flat-square)](https://github.com/ioseba/awesome-industrial-metallurgy-ai/blob/main/LICENSE)
+
+> 🌟 **Canonical Ecosystem Repository:**  
+> For the comprehensive, deep directory with architectural diagrams, combustion solvers, and benchmark datasets, explore:  
+> [**ioseba/awesome-industrial-metallurgy-ai**](https://github.com/ioseba/awesome-industrial-metallurgy-ai) — *Awesome list covering Secondary Aluminum Recycling, LWIR Radiometric Thermography, Refractory Computer Vision, and Casthouse IIoT.*
+
+</div>
+
 <details open>
 <summary><b>⚙️ Metallurgy, Scrap Metal Characterization & Steel/Aluminum Inspection</b></summary>
 <br/>
 
 | Repository | Discipline | Highlights |
 | :--- | :--- | :--- |
+| [**ioseba/awesome-industrial-metallurgy-ai**](https://github.com/ioseba/awesome-industrial-metallurgy-ai) | `Flagship Index` `Awesome List` | Canonical curated catalog of repositories, tools, datasets, and standards for industrial metallurgy, aluminum recycling, thermography, and refractory AI. |
 | [**zichengzichengzi/Scrap_Steel_Image_Dataset**](https://github.com/zichengzichengzi/Scrap_Steel_Image_Dataset) | `Scrap Grading` `Object Detection` | Specialized open dataset and annotations for automated scrap steel grading, sorting, and hazardous non-metallic impurity detection. |
 | [**stepanje/MPDD**](https://github.com/stepanje/MPDD) | `Metal Parts AD` `Manufacturing Flaws` | Metal Parts Defect Detection benchmark dataset for computer vision, covering painted, non-painted, and machined metal surfaces with irregular defects. |
 | [**khornlund/severstal-steel-defect-detection**](https://github.com/khornlund/severstal-steel-defect-detection) | `Defect Segmentation` `Hot-Rolled Steel` | Canonical benchmark implementation for the Severstal steel defect challenge. PyTorch segmentation of pitting, inclusion, and surface roll cracks in continuous manufacturing lines. |
