@@ -69,7 +69,21 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ### 🧭 Open Source Tech Radar & Essential Ecosystem
 
-A curated index of canonical, high-impact open-source repositories shaping industrial vision, edge AI, high-temperature thermography, enterprise data governance, and high-performance analytical systems:
+A curated index of canonical, high-impact open-source repositories shaping metallurgical vision, scrap characterization, industrial thermography, enterprise data governance, and high-performance analytical systems:
+
+<details open>
+<summary><b>⚙️ Metallurgy, Scrap Metal Characterization & Steel/Aluminum Inspection</b></summary>
+<br/>
+
+| Repository | Discipline | Highlights |
+| :--- | :--- | :--- |
+| [**khornlund/severstal-steel-defect-detection**](https://github.com/khornlund/severstal-steel-defect-detection) | `Defect Segmentation` `Hot-Rolled Steel` | Canonical benchmark implementation for the Severstal steel defect challenge. PyTorch segmentation of pitting, inclusion, and surface roll cracks in continuous manufacturing lines. |
+| [**YeahHuang/Al_surface_defect_detection**](https://github.com/YeahHuang/Al_surface_defect_detection) | `Aluminum Defect AI` `Extrusion & Sheet` | Benchmark vision pipelines for industrial aluminum surface defect classification and segmentation (coating spots, non-metallic inclusions, peeling, and scratches). |
+| [**siddhartamukherjee/NEU-DET-Steel-Surface-Defect-Detection**](https://github.com/siddhartamukherjee/NEU-DET-Steel-Surface-Defect-Detection) | `NEU-DET Benchmark` `Surface Flaws` | Comprehensive deep learning implementation on Northeastern University's steel surface defect dataset (crazing, inclusion, patches, pitted surface, rolled-in scale, and scratches). |
+| [**spectralpython/spectral**](https://github.com/spectralpython/spectral) | `Hyperspectral AI` `Alloy Classification` | Fundamental Python package for hyperspectral and multispectral image processing, used in automated scrap sorting lines to distinguish non-ferrous aluminum alloys (series 5xxx vs 6xxx). |
+| [**xraypy/xraylarch**](https://github.com/xraypy/xraylarch) | `XRF / LIBS Spectroscopy` `Metal Characterization` | Open-source Python library for X-ray fluorescence (XRF) and spectroscopy data analysis, essential for scrap elemental composition and impurity verification. |
+
+</details>
 
 <details open>
 <summary><b>🔥 Industrial Computer Vision, Surface Defect Detection & Anomaly Inspection</b></summary>
