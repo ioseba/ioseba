@@ -91,10 +91,16 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
   * **[PR #44439](https://github.com/BerriAI/litellm/pull/44439):** Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
   * **[PR #44459](https://github.com/BerriAI/litellm/pull/44459):** Set status description on OpenTelemetry error spans ([#44184](https://github.com/BerriAI/litellm/issues/44184)), capturing root-cause exception messages in observability collectors.
 
-#### Data Science, Standards & Visualization
+#### Data Science, Dataframes & Visualization
+
+* **[narwhals-dev/narwhals](https://github.com/narwhals-dev/narwhals):**
+  * **[PR #4060](https://github.com/narwhals-dev/narwhals/pull/4060):** Fixed `mean_horizontal` returning `NaN` instead of `null` for all-null rows on PyArrow, DuckDB, and `pandas[pyarrow]` backends ([#4056](https://github.com/narwhals-dev/narwhals/issues/4056)). Added multi-engine regression test coverage for all-null numeric series.
+
+* **[vega/altair](https://github.com/vega/altair):**
+  * **[PR #4175](https://github.com/vega/altair/pull/4175):** Improved `SchemaValidationError` error messaging and class naming precision ([#4155](https://github.com/vega/altair/issues/4155)), correctly identifying `condition` conflicts, preserving user-facing classes (`Tooltip`, `Y`, `YDatum`, `YValue`) instead of internal Vega-Lite schema types, and referencing original channel shorthands in error reporting.
 
 * **[plotly/plotly.py](https://github.com/plotly/plotly.py):**
-  * **[PR #5809](https://github.com/plotly/plotly.py/pull/5809):** Fixed spurious UserWarning: The kopts argument is ignored if using a server. during static image export when kaleido.start_sync_server() is active ([#5786](https://github.com/plotly/plotly.py/issues/5786)), keeping default OSM tile headers while avoiding redundant option passing to running Kaleido instances.
+  * **[PR #5809](https://github.com/plotly/plotly.py/pull/5809):** Fixed spurious `UserWarning: The kopts argument is ignored if using a server.` during static image export when `kaleido.start_sync_server()` is active ([#5786](https://github.com/plotly/plotly.py/issues/5786)), keeping default OSM tile headers while avoiding redundant option passing to running Kaleido instances.
 
 * **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) ([PR #7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
   Addressed core semantic documentation ([#6968](https://github.com/tidyverse/dplyr/issues/6968)) for `filter()`, clarifying simultaneous vs. sequential evaluation when conditions compute summary and aggregation metrics.
