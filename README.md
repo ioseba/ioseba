@@ -12,7 +12,8 @@
   <p align="center">
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Open_Source-Collaborator-00C853?style=flat-square&logo=github&logoColor=white" alt="Open Source Collaborator" /></a>
     <a href="https://dama.org"><img src="https://img.shields.io/badge/CDMP%C2%AE-Data_Management_Professional-1E3A8A?style=flat-square" alt="CDMP Certified" /></a>
-    <a href="https://huggingface.co/ioseba"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ecosystem-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Contributor" /></a>
+    <a href="https://huggingface.co/ioseba"><img src="https://img.shields.io/badge/Hugging_Face-🤗_Ioseba-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Profile" /></a>
+    <a href="https://huggingface.co/spaces/Ioseba/data-governance-audit-agent"><img src="https://img.shields.io/badge/Space-Data_Governance_Agent-4F46E5?style=flat-square&logo=gradio&logoColor=white" alt="Data Governance Agent Space" /></a>
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_•_R_•_FastAPI_•_Docker-009688?style=flat-square" alt="Stack" /></a>
     <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai"><img src="https://img.shields.io/badge/Awesome-Metallurgy_%26_AI-E06C75?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome Metallurgy & AI" /></a>
   </p>
@@ -53,6 +54,15 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 | **DevOps & Tooling** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
 
 </div>
+
+---
+
+### Hugging Face Ecosystem & Interactive Labs
+
+* **[🤗 Space: Data Quality & Governance Audit Agent (DAMA-DMBOK)](https://huggingface.co/spaces/Ioseba/data-governance-audit-agent):**  
+  Interactive enterprise data profiling and governance compliance engine. Evaluates tabular datasets (CSV, Parquet, JSON) across the 6 foundational DAMA-DMBOK dimensions (*Completeness, Uniqueness, Validity, Consistency, Integrity, Precision & Distribution*) with automated executive audit reporting and remediation plans.
+* **[🤗 Dataset: DAMA-DMBOK Data Quality Benchmark](https://huggingface.co/datasets/Ioseba/dama-dmbok-data-quality-benchmark):**  
+  Curated benchmark suite with synthetic enterprise master data (Customer 360 MDM, Financial Ledger, Clinical Registries) and a machine-readable data quality rule taxonomy (`rules_taxonomy.json`) for benchmarking automated data governance agents.
 
 ---
 
@@ -289,3 +299,20 @@ A curated index of canonical, high-impact open-source repositories shaping metal
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ioseba&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="135" />
 </div>
+
+---
+
+### Connect & Professional Network
+
+<div align="center">
+
+  <p>Interested in collaborating on open-source data infrastructure, enterprise data governance, or high-throughput computer vision systems?</p>
+
+  <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/GitHub-ioseba-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://huggingface.co/ioseba"><img src="https://img.shields.io/badge/Hugging_Face-Ioseba-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/ioseba-ongay-arana"><img src="https://img.shields.io/badge/LinkedIn-Ioseba_Ongay_Arana-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+
+</div>
+
