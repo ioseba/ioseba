@@ -59,17 +59,15 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ### Hugging Face Ecosystem & Interactive Labs
 
-* **[🤖 Model: Aluminum Furnace Anomaly Detector](https://huggingface.co/iialonso/aluminum-furnace-anomaly-detector):**  
-  Production-grade machine learning model (`HistGradientBoostingClassifier`, ROC-AUC: 0.9998) for real-time anomaly detection and predictive maintenance on industrial melting furnace telemetry (bath overheating, burner flameouts, charge freeze).
-* **[📊 Dataset: Industrial Metallurgy Furnace Telemetry Benchmark](https://huggingface.co/datasets/iialonso/industrial-metallurgy-furnace-telemetry-benchmark):**  
-  High-frequency multi-sensor time-series dataset from a 25-tonne Tilting Rotary Melting Furnace (TRF) capturing molten aluminum bath temperatures, crown radiometry, oxy-fuel stoichiometry, and labeled failure modes.
 * **[🤗 Space: Data Quality & Governance Audit Agent (DAMA-DMBOK)](https://huggingface.co/spaces/iialonso/data-governance-audit-agent):**  
   Interactive enterprise data profiling and governance compliance engine. Evaluates tabular datasets (CSV, Parquet, JSON) across the 6 foundational DAMA-DMBOK dimensions (*Completeness, Uniqueness, Validity, Consistency, Integrity, Precision & Distribution*) with automated executive audit reporting and remediation plans.
 * **[📁 Dataset: DAMA-DMBOK Data Quality Benchmark](https://huggingface.co/datasets/iialonso/dama-dmbok-data-quality-benchmark):**  
   Curated benchmark suite with synthetic enterprise master data (Customer 360 MDM, Financial Ledger, Clinical Registries) and a machine-readable data quality rule taxonomy (`rules_taxonomy.json`) for benchmarking automated data governance agents.
 * **[📚 Curated Collections on Hugging Face](https://huggingface.co/iialonso#collections):**  
-  * [Industrial AI, Metallurgy & Radiometric Vision](https://huggingface.co/collections/iialonso/industrial-ai-metallurgy-and-radiometric-vision-6acbd7b6275cbe99db405e2f)
   * [Enterprise Data Governance & Quality (CDMP®)](https://huggingface.co/collections/iialonso/enterprise-data-governance-and-quality-cdmp-6acbd7b6a0d63e6bb90b58ba)
+  * [Industrial Computer Vision & Zero-Shot Perception](https://huggingface.co/collections/iialonso/industrial-computer-vision-and-zero-shot-perception-6acbd99b99e09a48528f498f)
+  * [SOTA Small Agents & Compact Reasoning LLMs](https://huggingface.co/collections/iialonso/sota-small-agents-and-compact-reasoning-llms-6acbd9991aeb4a9775d9c614)
+  * [Foundation Models for Time-Series & Industrial Telemetry](https://huggingface.co/collections/iialonso/foundation-models-for-time-series-and-industrial-telemetry-6acbd99c5720abbe62fcff60)
 
 ---
 
