@@ -100,6 +100,15 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
   </details>
 
+#### 🏛️ Elite Academic Research Labs (Stanford, Harvard, MIT)
+
+* **[stanford-crfm/helm](https://github.com/stanford-crfm/helm) (Stanford University - Center for Research on Foundation Models):**
+  * **[PR #4364](https://github.com/stanford-crfm/helm/pull/4364):** Fixed multiple-choice `exact_match` metric calculation on ties ([#4363](https://github.com/stanford-crfm/helm/issues/4363)), preventing fractional score inflation by computing standard binary Exact Match with configurable tie-breaking strategies and full regression test coverage.
+* **[mims-harvard/TDC](https://github.com/mims-harvard/TDC) (Harvard Medical School - Therapeutics Data Commons):**
+  * **[PR #403](https://github.com/mims-harvard/TDC/pull/403):** Removed deprecated PyPI `dataclasses` backport dependency ([#381](https://github.com/mims-harvard/TDC/issues/381)), resolving package installation failures on modern Python (3.8 through 3.12) across biomedical ML environments.
+* **[mit-han-lab/smoothquant](https://github.com/mit-han-lab/smoothquant) (MIT HAN Lab - Prof. Song Han):**
+  * **[PR #109](https://github.com/mit-han-lab/smoothquant/pull/109):** Added range clamping `.clamp_(-q_max, q_max)` across all quantization routines in `fake_quant.py` ([#96](https://github.com/mit-han-lab/smoothquant/issues/96)), preventing out-of-range integer overflows during FP16/BF16 simulated INT8 quantization.
+
 #### AI Infrastructure, Gateway & Observability
 
 * **[BerriAI/litellm](https://github.com/BerriAI/litellm):**  
@@ -109,7 +118,8 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 #### Data Science, Dataframes & Visualization
 
 * **[narwhals-dev/narwhals](https://github.com/narwhals-dev/narwhals):**
-  * **[PR #4060](https://github.com/narwhals-dev/narwhals/pull/4060):** Fixed `mean_horizontal` returning `NaN` instead of `null` for all-null rows on PyArrow, DuckDB, and `pandas[pyarrow]` backends ([#4056](https://github.com/narwhals-dev/narwhals/issues/4056)). Added multi-engine regression test coverage for all-null numeric series.
+  * **[PR #4061](https://github.com/narwhals-dev/narwhals/pull/4061):** Preserved nulls in `Series.mode` and `Expr.mode` on pandas-like and Dask backends ([#4055](https://github.com/narwhals-dev/narwhals/issues/4055)), matching Polars and PyArrow behavior and guarding against eager computation in lazy Dask queries.
+  * **[PR #4062](https://github.com/narwhals-dev/narwhals/pull/4062):** Returned `null` instead of `0` for modulo by zero on pandas-like nullable integer types ([#4036](https://github.com/narwhals-dev/narwhals/issues/4036)), maintaining strict dtype preservation and arithmetic consistency with floor division.
 
 * **[vega/altair](https://github.com/vega/altair):**
   * **[PR #4175](https://github.com/vega/altair/pull/4175):** Improved `SchemaValidationError` error messaging and class naming precision ([#4155](https://github.com/vega/altair/issues/4155)), correctly identifying `condition` conflicts, preserving user-facing classes (`Tooltip`, `Y`, `YDatum`, `YValue`) instead of internal Vega-Lite schema types, and referencing original channel shorthands in error reporting.
