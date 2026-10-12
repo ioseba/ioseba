@@ -326,8 +326,5 @@ A curated index of canonical, high-impact open-source repositories shaping metal
   <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/GitHub-ioseba-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   &nbsp;
   <a href="https://huggingface.co/iialonso"><img src="https://img.shields.io/badge/Hugging_Face-iialonso-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
-  &nbsp;
-  <a href="https://linkedin.com/in/ioseba-ongay-arana"><img src="https://img.shields.io/badge/LinkedIn-Ioseba_Ongay_Arana-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-
 </div>
 
