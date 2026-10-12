@@ -123,7 +123,7 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
   * **[PR #4062](https://github.com/narwhals-dev/narwhals/pull/4062):** Returned `null` instead of `0` for modulo by zero on pandas-like nullable integer types ([#4036](https://github.com/narwhals-dev/narwhals/issues/4036)), maintaining strict dtype preservation and arithmetic consistency with floor division.
 
 * **[vega/altair](https://github.com/vega/altair):**
-  * **[PR #4175](https://github.com/vega/altair/pull/4175):** Improved `SchemaValidationError` error messaging and class naming precision ([#4155](https://github.com/vega/altair/issues/4155)), correctly identifying `condition` conflicts, preserving user-facing classes (`Tooltip`, `Y`, `YDatum`, `YValue`) instead of internal Vega-Lite schema types, and referencing original channel shorthands in error reporting.
+  * **[PR #4177](https://github.com/vega/altair/pull/4177):** Improved `SchemaValidationError` error messaging and class naming precision ([#4155](https://github.com/vega/altair/issues/4155)), correctly identifying `condition` conflicts, preserving user-facing classes (`Tooltip`, `Y`, `YDatum`, `YValue`) instead of internal Vega-Lite schema types, and referencing original channel shorthands in error reporting. Rebased onto `main`.
 
 * **[plotly/plotly.py](https://github.com/plotly/plotly.py):**
   * **[PR #5809](https://github.com/plotly/plotly.py/pull/5809):** Fixed spurious `UserWarning: The kopts argument is ignored if using a server.` during static image export when `kaleido.start_sync_server()` is active ([#5786](https://github.com/plotly/plotly.py/issues/5786)), keeping default OSM tile headers while avoiding redundant option passing to running Kaleido instances.
