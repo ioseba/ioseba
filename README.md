@@ -12,6 +12,7 @@
   <p align="center">
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Open_Source-Collaborator-108548?style=flat-square&logo=github&logoColor=white" alt="Open Source Collaborator" /></a>
     <a href="https://dama.org"><img src="https://img.shields.io/badge/CDMP-Certified_Data_Management_Professional-1E3A8A?style=flat-square" alt="CDMP Certified" /></a>
+    <a href="https://linkedin.com/in/iiav"><img src="https://img.shields.io/badge/LinkedIn-iiav-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Profile" /></a>
     <a href="https://huggingface.co/iialonso"><img src="https://img.shields.io/badge/Hugging_Face-iialonso-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face Profile" /></a>
     <a href="https://huggingface.co/spaces/iialonso/data-governance-audit-agent"><img src="https://img.shields.io/badge/HF_Space-Data_Governance_Agent-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Data Governance Agent Space" /></a>
     <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_|_R_|_FastAPI_|_Docker-009688?style=flat-square" alt="Stack" /></a>
@@ -324,6 +325,8 @@ A curated index of canonical, high-impact open-source repositories shaping metal
   <p>Interested in collaborating on open-source data infrastructure, enterprise data governance, or high-throughput computer vision systems?</p>
 
   <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/GitHub-ioseba-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/iiav"><img src="https://img.shields.io/badge/LinkedIn-iiav-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   &nbsp;
   <a href="https://huggingface.co/iialonso"><img src="https://img.shields.io/badge/Hugging_Face-iialonso-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
 </div>
