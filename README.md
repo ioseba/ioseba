@@ -125,8 +125,8 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 * **[vega/altair](https://github.com/vega/altair):**
   * **[PR #4177](https://github.com/vega/altair/pull/4177):** Improved `SchemaValidationError` error messaging and class naming precision ([#4155](https://github.com/vega/altair/issues/4155)), correctly identifying `condition` conflicts, preserving user-facing classes (`Tooltip`, `Y`, `YDatum`, `YValue`) instead of internal Vega-Lite schema types, and referencing original channel shorthands in error reporting. Rebased onto `main`.
 
-* **[plotly/plotly.py](https://github.com/plotly/plotly.py):**
-  * **[PR #5809](https://github.com/plotly/plotly.py/pull/5809):** Fixed spurious `UserWarning: The kopts argument is ignored if using a server.` during static image export when `kaleido.start_sync_server()` is active ([#5786](https://github.com/plotly/plotly.py/issues/5786)), keeping default OSM tile headers while avoiding redundant option passing to running Kaleido instances.
+* **[huggingface/smolagents](https://github.com/huggingface/smolagents) Ecosystem:**
+  * **[`iialonso/data-quality-profiler`](https://huggingface.co/spaces/iialonso/data-quality-profiler):** Official enterprise Data Quality Profiler Tool published on Hugging Face Hub (`Tool.from_hub("iialonso/data-quality-profiler")`). Provides deterministic CDMP® / DAMA-DMBOK quality scoring, completeness analysis, primary key detection, outlier isolation, and actionable anomaly reporting for autonomous agents.
 
 * **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) ([PR #7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
   Addressed core semantic documentation ([#6968](https://github.com/tidyverse/dplyr/issues/6968)) for `filter()`, clarifying simultaneous vs. sequential evaluation when conditions compute summary and aggregation metrics.
