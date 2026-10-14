@@ -15,7 +15,7 @@
     <a href="https://linkedin.com/in/iiav"><img src="https://img.shields.io/badge/LinkedIn-iiav-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Profile" /></a>
     <a href="https://huggingface.co/iialonso"><img src="https://img.shields.io/badge/Hugging_Face-iialonso-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face Profile" /></a>
     <a href="https://huggingface.co/spaces/iialonso/data-governance-audit-agent"><img src="https://img.shields.io/badge/HF_Space-Data_Governance_Agent-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Data Governance Agent Space" /></a>
-    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_|_R_|_FastAPI_|_Docker-009688?style=flat-square" alt="Stack" /></a>
+    <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Stack-Python_|_R_|_SQL_|_Docker-009688?style=flat-square" alt="Stack" /></a>
     <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai"><img src="https://img.shields.io/badge/Awesome-Metallurgy_%26_AI-E06C75?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome Metallurgy & AI" /></a>
   </p>
 
@@ -29,9 +29,9 @@ I operate at the intersection of **Data Science, Software Engineering, and Enter
 
 In 2026, enterprise software and AI systems don't fail from lack of raw model capacity — they fail due to **untamed data quality, brittle architecture, and lack of deterministic engineering**. I combine **rigorous Python software engineering** with **DAMA-DMBOK data management principles** to transform complex data into resilient, scalable, production-grade applications.
 
-* **Software & Systems Engineering:** Architecting scalable microservices, low-latency REST and WebSocket streaming APIs with FastAPI, runtime data contracts with Pydantic v2, and strict test-driven development (`pytest`).
+* **Software & Systems Engineering:** Building reliable data-intensive applications, robust APIs and streaming pipelines, runtime data contracts with Pydantic v2, and rigorous test-driven development (`pytest`).
 * **Data Science & Modeling:** Exploratory data analysis (EDA), statistical inference, predictive modeling, and feature engineering across structured and unstructured industrial datasets (Pandas, NumPy, Scikit-Learn, PyTorch).
-* **Open Source Foundations:** Active open-source collaborator contributing targeted core features, multi-chunk streaming engines, and comprehensive localization across foundational AI repositories (**LiteLLM**, **Hugging Face**).
+* **Open Source & Reproducibility:** Active collaborator and learner across the data science ecosystem, prioritizing verifiable data quality, thorough documentation, and deterministic testing.
 * **Enterprise Data Management (CDMP®):** Grounded in the DAMA-DMBOK framework — enforcing Data Quality dimensions, Data Governance, Metadata Management, and Master Data Architecture (MDM).
 
 ---
@@ -49,7 +49,7 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Software & Systems** | ![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white) ![LiteLLM](https://img.shields.io/badge/LiteLLM-263238?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-4169E1?style=flat-square) ![REST/WS](https://img.shields.io/badge/REST_%26_WebSocket-005571?style=flat-square) |
+| **Software & Systems** | ![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white) ![LiteLLM](https://img.shields.io/badge/LiteLLM-263238?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-4169E1?style=flat-square) ![REST](https://img.shields.io/badge/REST_%26_APIs-005571?style=flat-square) |
 | **Data Science & ML** | ![R](https://img.shields.io/badge/R-Language-276DC3?style=flat-square&logo=rproject&logoColor=white) ![Tidyverse](https://img.shields.io/badge/Tidyverse-198CE7?style=flat-square) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
 | **Data Governance** | ![DMBOK](https://img.shields.io/badge/Framework-DAMA--DMBOK-0A2540?style=flat-square) ![Data Quality](https://img.shields.io/badge/Discipline-Data_Quality-1E88E5?style=flat-square) ![Data Governance](https://img.shields.io/badge/Enterprise-Data_Governance-3949AB?style=flat-square) ![Metadata](https://img.shields.io/badge/Architecture-Metadata_Mgmt-5E35B1?style=flat-square) |
 | **DevOps & Tooling** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
@@ -61,9 +61,11 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 ### Hugging Face Ecosystem & Interactive Labs
 
 * **[🤗 Space: Data Quality & Governance Audit Agent (DAMA-DMBOK)](https://huggingface.co/spaces/iialonso/data-governance-audit-agent):**  
-  Interactive enterprise data profiling and governance compliance engine. Evaluates tabular datasets (CSV, Parquet, JSON) across the 6 foundational DAMA-DMBOK dimensions (*Completeness, Uniqueness, Validity, Consistency, Integrity, Precision & Distribution*) with automated executive audit reporting and remediation plans.
+  Interactive enterprise data profiling and governance compliance engine. Evaluates tabular datasets (CSV, Parquet, JSON) across foundational DAMA-DMBOK dimensions (*Completeness, Uniqueness, Validity, Consistency, Integrity, Precision & Distribution*) with automated audit reporting and remediation insights.
 * **[📁 Dataset: DAMA-DMBOK Data Quality Benchmark](https://huggingface.co/datasets/iialonso/dama-dmbok-data-quality-benchmark):**  
   Curated benchmark suite with synthetic enterprise master data (Customer 360 MDM, Financial Ledger, Clinical Registries) and a machine-readable data quality rule taxonomy (`rules_taxonomy.json`) for benchmarking automated data governance agents.
+* **[🛠️ Tool: Data Quality Profiler for smolagents](https://huggingface.co/spaces/iialonso/data-quality-profiler):**  
+  Data Quality Profiler Tool published on Hugging Face Hub (`Tool.from_hub("iialonso/data-quality-profiler")`). Provides deterministic CDMP® / DAMA-DMBOK quality scoring, completeness analysis, primary key detection, outlier isolation, and actionable anomaly reporting for autonomous agents.
 * **[📚 Curated Collections on Hugging Face](https://huggingface.co/iialonso#collections):**  
   * [Enterprise Data Governance & Quality (CDMP®)](https://huggingface.co/collections/iialonso/enterprise-data-governance-and-quality-cdmp-6acbd7b6a0d63e6bb90b58ba)
   * [Industrial Computer Vision & Zero-Shot Perception](https://huggingface.co/collections/iialonso/industrial-computer-vision-and-zero-shot-perception-6acbd99b99e09a48528f498f)
@@ -72,66 +74,13 @@ In 2026, enterprise software and AI systems don't fail from lack of raw model ca
 
 ---
 
-### Open Source & Community Contributions
+### Open Source Engagement & Philosophy
 
-* **[huggingface/smolagents](https://github.com/huggingface/smolagents):**
-  * **[PR #2953](https://github.com/huggingface/smolagents/pull/2953):** Made `space_sdk` configurable in `CodeAgent.push_to_hub()`, resolving deployment errors (`402 Payment Required`) on static spaces and custom hub configurations.
-  * **[PR #2952](https://github.com/huggingface/smolagents/pull/2952):** Documented missing execution parameters (`authorized_imports` and `max_print_outputs_length`) in `local_python_executor.evaluate_python_code` with regression test coverage.
-* **[huggingface/agents-course](https://github.com/huggingface/agents-course):**
-  * **[PR #756](https://github.com/huggingface/agents-course/pull/756):** Synchronized Unit 2.1 (`smolagents` and code agents) with upstream reference curriculum and fixed navigation indices.
-* **[huggingface/course](https://github.com/huggingface/course):**
-  * Lead contributor to the Spanish curriculum with **29 dedicated pull requests** covering 100% of the entire course: Transformers, tokenization, distributed inference (**vLLM** PagedAttention, **TGI**, **llama.cpp**), Argilla data curation, Gradio demos, and Reasoning Models (**DeepSeek R1 / GRPO** in TRL).
-  <details>
-  <summary><b>Expand list of 29 Hugging Face Course Pull Requests</b></summary>
-  <br/>
+I actively study, benchmark, and contribute to open-source systems in data science and machine learning:
 
-  | Module | Pull Requests | Topic |
-  | :--- | :--- | :--- |
-  | **Chapter 1** | [#1330](https://github.com/huggingface/course/pull/1330) | Certification Exam (`chapter1/11.mdx`) |
-  | **Chapter 2** | [#1325](https://github.com/huggingface/course/pull/1325), [#1329](https://github.com/huggingface/course/pull/1329), [#1333](https://github.com/huggingface/course/pull/1333), [#1349](https://github.com/huggingface/course/pull/1349) | Pipelines, Models, TGI, vLLM, llama.cpp & Quiz |
-  | **Chapter 3** | [#1330](https://github.com/huggingface/course/pull/1330) | Certification Quiz (`chapter3/7.mdx`) |
-  | **Chapter 4** | [#1331](https://github.com/huggingface/course/pull/1331), [#1332](https://github.com/huggingface/course/pull/1332), [#1334](https://github.com/huggingface/course/pull/1334), [#1335](https://github.com/huggingface/course/pull/1335), [#1336](https://github.com/huggingface/course/pull/1336) | Model Hub, Pretrained Models, Model Cards & Quiz |
-  | **Chapter 7** | [#1350](https://github.com/huggingface/course/pull/1350), [#1351](https://github.com/huggingface/course/pull/1351), [#1352](https://github.com/huggingface/course/pull/1352), [#1353](https://github.com/huggingface/course/pull/1353) | Token Classification, Masked LM, Translation, Summarization, CLM, QA & LLMs |
-  | **Chapter 8** | [#1337](https://github.com/huggingface/course/pull/1337), [#1338](https://github.com/huggingface/course/pull/1338), [#1339](https://github.com/huggingface/course/pull/1339), [#1341](https://github.com/huggingface/course/pull/1341) | Forums, PyTorch & TensorFlow Training Pipeline Debugging & Issues |
-  | **Chapter 9** | [#1342](https://github.com/huggingface/course/pull/1342), [#1343](https://github.com/huggingface/course/pull/1343), [#1344](https://github.com/huggingface/course/pull/1344), [#1345](https://github.com/huggingface/course/pull/1345) | Gradio Interfaces, Sharing Demos, Spaces Integration, Blocks & Quiz |
-  | **Chapter 10** | [#1346](https://github.com/huggingface/course/pull/1346), [#1347](https://github.com/huggingface/course/pull/1347), [#1348](https://github.com/huggingface/course/pull/1348) | Argilla Dataset Annotation, Setup, Verification & Quiz |
-  | **Chapter 11** | [#1354](https://github.com/huggingface/course/pull/1354) | Fine-tuning Large Language Models (Sections 1 to 7) |
-  | **Chapter 12** | [#1355](https://github.com/huggingface/course/pull/1355), [#1356](https://github.com/huggingface/course/pull/1356) | Reasoning Models, DeepSeek R1 & GRPO in TRL & Unsloth |
-  | **Events** | [#1340](https://github.com/huggingface/course/pull/1340) | Community Launch Events & Challenges |
-
-  </details>
-
-#### 🏛️ Elite Academic Research Labs (Stanford, Harvard, MIT)
-
-* **[stanford-crfm/helm](https://github.com/stanford-crfm/helm) (Stanford University - Center for Research on Foundation Models):**
-  * **[PR #4364](https://github.com/stanford-crfm/helm/pull/4364):** Fixed multiple-choice `exact_match` metric calculation on ties ([#4363](https://github.com/stanford-crfm/helm/issues/4363)), preventing fractional score inflation by computing standard binary Exact Match with configurable tie-breaking strategies and full regression test coverage.
-* **[mims-harvard/TDC](https://github.com/mims-harvard/TDC) (Harvard Medical School - Therapeutics Data Commons):**
-  * **[PR #403](https://github.com/mims-harvard/TDC/pull/403):** Removed deprecated PyPI `dataclasses` backport dependency ([#381](https://github.com/mims-harvard/TDC/issues/381)), resolving package installation failures on modern Python (3.8 through 3.12) across biomedical ML environments.
-* **[mit-han-lab/smoothquant](https://github.com/mit-han-lab/smoothquant) (MIT HAN Lab - Prof. Song Han):**
-  * **[PR #109](https://github.com/mit-han-lab/smoothquant/pull/109):** Added range clamping `.clamp_(-q_max, q_max)` across all quantization routines in `fake_quant.py` ([#96](https://github.com/mit-han-lab/smoothquant/issues/96)), preventing out-of-range integer overflows during FP16/BF16 simulated INT8 quantization.
-
-#### AI Infrastructure, Gateway & Observability
-
-* **[BerriAI/litellm](https://github.com/BerriAI/litellm):**  
-  * **[PR #44439](https://github.com/BerriAI/litellm/pull/44439):** Fixed tool-call streaming fragmentation in `ChunkProcessor.get_combined_tool_content`, preventing truncated function names and IDs during multi-vendor proxy streaming. Added regression unit test coverage.
-  * **[PR #44459](https://github.com/BerriAI/litellm/pull/44459):** Set status description on OpenTelemetry error spans ([#44184](https://github.com/BerriAI/litellm/issues/44184)), capturing root-cause exception messages in observability collectors.
-
-#### Data Science, Dataframes & Visualization
-
-* **[narwhals-dev/narwhals](https://github.com/narwhals-dev/narwhals):**
-  * **[PR #4061](https://github.com/narwhals-dev/narwhals/pull/4061):** Preserved nulls in `Series.mode` and `Expr.mode` on pandas-like and Dask backends ([#4055](https://github.com/narwhals-dev/narwhals/issues/4055)), matching Polars and PyArrow behavior and guarding against eager computation in lazy Dask queries.
-  * **[PR #4062](https://github.com/narwhals-dev/narwhals/pull/4062):** Returned `null` instead of `0` for modulo by zero on pandas-like nullable integer types ([#4036](https://github.com/narwhals-dev/narwhals/issues/4036)), maintaining strict dtype preservation and arithmetic consistency with floor division.
-
-* **[vega/altair](https://github.com/vega/altair):**
-  * **[PR #4177](https://github.com/vega/altair/pull/4177):** Improved `SchemaValidationError` error messaging and class naming precision ([#4155](https://github.com/vega/altair/issues/4155)), correctly identifying `condition` conflicts, preserving user-facing classes (`Tooltip`, `Y`, `YDatum`, `YValue`) instead of internal Vega-Lite schema types, and referencing original channel shorthands in error reporting. Rebased onto `main`.
-
-* **[huggingface/smolagents](https://github.com/huggingface/smolagents) Ecosystem:**
-  * **[`iialonso/data-quality-profiler`](https://huggingface.co/spaces/iialonso/data-quality-profiler):** Official enterprise Data Quality Profiler Tool published on Hugging Face Hub (`Tool.from_hub("iialonso/data-quality-profiler")`). Provides deterministic CDMP® / DAMA-DMBOK quality scoring, completeness analysis, primary key detection, outlier isolation, and actionable anomaly reporting for autonomous agents.
-
-* **[tidyverse/dplyr](https://github.com/tidyverse/dplyr) ([PR #7856](https://github.com/tidyverse/dplyr/pull/7856)):**  
-  Addressed core semantic documentation ([#6968](https://github.com/tidyverse/dplyr/issues/6968)) for `filter()`, clarifying simultaneous vs. sequential evaluation when conditions compute summary and aggregation metrics.
-* **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ([PR #15720](https://github.com/punkpeye/awesome-mcp-servers/pull/15720)):**  
-  Contributed the Enterprise Data Governance MCP server implementing DAMA-DMBOK quality dimensions and metadata tools for Claude/Desktop AI agents.
+* **Quality & Determinism:** Prioritizing data integrity, robust typing, and comprehensive test coverage over quick heuristics.
+* **Respectful Collaboration:** Engaging constructively with project maintainers, adhering strictly to community guidelines, and submitting focused bugfixes with regression tests.
+* **Applied Engineering:** Sharing reproducible benchmarks, curated indexes, and reusable tooling for industrial and enterprise domains.
 
 ---
 
